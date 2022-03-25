@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pics"
+        android:title="Our Pics"
+        android:icon="@drawable/ic_outline_backpack_24"/>
+    <item
+        android:id="@+id/category"
+        android:title="Categories"
+        android:icon="@drawable/ic_outline_category_24"/>
+
+    <item
+        android:id="@+id/latest"
+        android:title="Latest"
+        android:icon="@drawable/ic_outline_fiber_new_24"/>
+    <item
+        android:id="@+id/feature"
+        android:title="Feature"
+        android:icon="@drawable/ic_outline_stars_24"/>
+    <item
+        android:id="@+id/favourite"
+        android:title="Favourite"
+        android:icon="@drawable/ic_outline_favorite_border_24"/>
+
+</menu>

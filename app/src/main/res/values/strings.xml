@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SupesWall</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="insta">Instagram <a href="https://www.instagram.com/kylo_ren__20/">@kylo_ren__20</a></string>
+    <string name="linked">LinkedIn <a href="https://www.linkedin.com/in/pulkit-dubey-75b703224/">@Pulkit Dubey</a></string>
+    <string name="git">Github <a href="https://github.com/Pulkiteleven">@Pulkiteleven</a></string>
+
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/bg"
+    tools:context="com.Inertia.Supeswallpaper.Activi.Navigation">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp"
+        android:theme="@style/Theme.SupesWallpaper.AppBarOverlay"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:elevation="0dp"
+            app:titleTextAppearance="@style/toolbart"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/toolbar"
+            app:popupTheme="@style/Theme.SupesWallpaper.PopupOverlay" >
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/normal"
+                android:textSize="25dp"
+                android:fontFamily="@font/mom"
+                android:text="SupesWall"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                android:layout_gravity="center" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <nl.joery.animatedbottombar.AnimatedBottomBar
+        android:id="@+id/bottom_bar"
+        app:abb_textAppearance="@style/toolbart"
+        android:layout_width="match_parent"
+        android:background="?attr/toolbar"
+        android:layout_height="50dp"
+        android:elevation="5dp"
+        app:abb_indicatorAppearance="round"
+        app:abb_indicatorColor="@color/selected"
+        app:abb_indicatorHeight="4dp"
+        app:abb_indicatorMargin="4dp"
+        app:abb_selectedIndex="02"
+        app:abb_selectedTabType="text"
+        app:abb_tabColor="?attr/normal"
+        app:abb_tabColorSelected="@color/selected"
+        app:abb_tabs="@menu/bottom_nav_menu"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:id="@+id/content_main"></RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

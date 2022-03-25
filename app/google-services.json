@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "906548856125",
+    "firebase_url": "https://supeswall-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "supeswall",
+    "storage_bucket": "supeswall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906548856125:android:f176f9e063b2e484d5f154",
+        "android_client_info": {
+          "package_name": "com.Inertia.Supeswallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906548856125-hjus64hvnfmi0786bhms5q1h867tl7a1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxiljwMSdRdiEm7bVlHs1dAnGu2U_NMzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906548856125-hjus64hvnfmi0786bhms5q1h867tl7a1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906548856125:android:6867eb34902dc2b7d5f154",
+        "android_client_info": {
+          "package_name": "com.example.realtimedatabasekotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906548856125-hjus64hvnfmi0786bhms5q1h867tl7a1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxiljwMSdRdiEm7bVlHs1dAnGu2U_NMzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906548856125-hjus64hvnfmi0786bhms5q1h867tl7a1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906548856125:android:5422154c08f78221d5f154",
+        "android_client_info": {
+          "package_name": "com.inertia.fireapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906548856125-hjus64hvnfmi0786bhms5q1h867tl7a1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxiljwMSdRdiEm7bVlHs1dAnGu2U_NMzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906548856125-hjus64hvnfmi0786bhms5q1h867tl7a1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
