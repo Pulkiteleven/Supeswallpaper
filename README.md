@@ -1,4 +1,4 @@
-# SupesWall Superhero Wallpaper
+# SupesWall Superhero Wallpapers
 
 This is Wallpaper App developed using Android Studio.
 
